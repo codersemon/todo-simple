@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.add-new-Wrap{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+#taskName{
+    width: 70%;
+    border: 1px solid#ddd;
+    padding: 5px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: inline-block;
+    cursor: pointer;
+}
+#saveTask{
+    background: #3b71ca;
+    border: 1px solid #3b71ca;
+}
+button.delete.btn{
+    background: #dc4c64;
+    border: 1px solid #dc4c64;
+}
+button.complete.btn{
+    background: #14a44d;
+    border: 1px solid #14a44d;
+}
+
+.taskList {
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-collapse: collapse;
+}
+.taskList tr, td,th{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.task-item td:nth-child(1), .task-item td:nth-child(3), .task-item td:nth-child(4){
+    text-align: center;
+}
+.task-item:nth-child(odd){
+    background-color: #dddddd30;
+}
+.s-complete{
+    color: green;
+}
+.s-pending{
+    color: #dc4c64;
+}
+.notask{
+    padding: 20px;
+    color: red;
+}

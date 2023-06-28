@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Todo app</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container task-container">
+      <h1 class="text-center">To Do App</h1>
+
+      <div class="add-new-Wrap">
+        <input type="text" placeholder="type task name" id="taskName" />
+        <input type="submit" value="Add Task" id="saveTask" class="btn" />
+      </div>
+
+      <table class="taskList">
+        <thead>
+          <tr class="taskHead">
+            <th>No</th>
+            <th>Todo</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="taskWrap">
+          <!-- <tr class="task-item">
+                    <td>1</td>
+                    <td>Write gig</td>
+                    <td><span class="s-pending">Pending</span></td>
+                    <td>
+                        <button class="delete btn">Delete</button>
+                        <button class="complete btn">Complete</button>
+                    </td>
+                </tr>
+                <tr class="task-item">
+                    <td>2</td>
+                    <td>Video editing with image ready</td>
+                    <td><span class="s-pending">Pending</span></td>
+                    <td>
+                        <button class="delete btn">Delete</button>
+                        <button class="complete btn">Complete</button>
+                    </td>
+                </tr>
+                <tr class="task-item">
+                    <td>3</td>
+                    <td>website design and content writing</td>
+                    <td><span class="s-pending">Pending</span></td>
+                    <td>
+                        <button class="delete btn">Delete</button>
+                        <button class="complete btn">Complete</button>
+                    </td>
+                </tr> -->
+        </tbody>
+        <tfoot>
+          <tr class="TaskFoot">
+            <th>No</th>
+            <th>Todo</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <script src="./app/main.js"></script>
+  </body>
+</html>
